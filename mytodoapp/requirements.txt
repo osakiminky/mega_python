@@ -1,0 +1,38 @@
+# Core app
+streamlit>=1.32
+altair>=5.0
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0
+
+# Data + utilities
+requests>=2.31
+python-dateutil>=2.8.2
+pytz>=2024.1
+tzdata>=2024.1
+
+# Visualization / formatting
+rich>=13.0
+Pillow>=10.0
+
+# HTML parsing
+beautifulsoup4>=4.12
+bleach>=6.0
+
+# Git support
+GitPython>=3.1
+
+# Notebook support (optional but modern)
+ipykernel>=6.29
+ipython>=8.20
+ipywidgets>=8.1
+notebook>=7.0
+
+# Validation / schema
+jsonschema>=4.20
+attrs>=23.0
+
+# Misc required by Streamlit ecosystem
+packaging>=23.2
+protobuf>=4.25
+typing_extensions>=4.9
