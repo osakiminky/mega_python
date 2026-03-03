@@ -1,4 +1,10 @@
-FILEPATH = "../todo_web_app/todos.txt"
+import os
+
+# Get absolute path of current file
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FILEPATH = os.path.join(BASE_DIR, "todos.txt")
+
+# FILEPATH = "../todo_web_app/todos.txt"
 
 def get_todos(filepath=FILEPATH):
     """ Read the text file and return a list of todos """
