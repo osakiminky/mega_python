@@ -7,8 +7,8 @@ import time
 import os
 
 #Create a .txt file if one does not exist
-if not os.path.exists("todos.txt"):
-    with open("todos.txt", 'w') as file:
+if not os.path.exists("../web_app1/todos.txt"):
+    with open("../web_app1/todos.txt", 'w') as file:
         pass
 
 # E.g. sg.theme("DarkPurple4")
